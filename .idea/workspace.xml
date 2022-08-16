@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="96a0f37a-51b6-4a9d-9b34-deeac4ffc6cd" name="Changes" comment="add ChessMatch, ChessPiece, and Color classes">
-      <change afterPath="$PROJECT_DIR$/src/chess/pieces/King.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chess/pieces/Rook.java" afterDir="false" />
+    <list default="true" id="96a0f37a-51b6-4a9d-9b34-deeac4ffc6cd" name="Changes" comment="add placePiece and initialSetup methods, as well as placing both the Kings on the board">
+      <change afterPath="$PROJECT_DIR$/src/board/BoardException.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/board/Board.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/board/Board.java" afterDir="false" />
     </list>
@@ -91,7 +90,21 @@
       <option name="project" value="LOCAL" />
       <updated>1660611839148</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="add king and rook pieces">
+      <created>1660673528424</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1660673528425</updated>
+    </task>
+    <task id="LOCAL-00005" summary="add placePiece and initialSetup methods, as well as placing both the Kings on the board">
+      <created>1660673577676</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1660673577676</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -109,6 +122,8 @@
     <MESSAGE value="add position class" />
     <MESSAGE value="add piece and board classes" />
     <MESSAGE value="add ChessMatch, ChessPiece, and Color classes" />
-    <option name="LAST_COMMIT_MESSAGE" value="add ChessMatch, ChessPiece, and Color classes" />
+    <MESSAGE value="add king and rook pieces" />
+    <MESSAGE value="add placePiece and initialSetup methods, as well as placing both the Kings on the board" />
+    <option name="LAST_COMMIT_MESSAGE" value="add placePiece and initialSetup methods, as well as placing both the Kings on the board" />
   </component>
 </project>

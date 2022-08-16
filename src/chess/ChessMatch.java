@@ -22,9 +22,12 @@ public class ChessMatch {
         return mat;
     }
 
+    public void placeNewPiece(char column, int row, ChessPiece piece) {
+        board.placePiece(piece, new ChessPosition(column, row).toPosition());
+    }
+
     public void initialSetup() {
-        board.placePiece(new King(board, Color.WHITE), new Position(7, 4));
-        board.placePiece(new King(board, Color.BLACK), new Position(0, 4));
-        board.placePiece(new King(board, Color.WHITE), new Position(9, 4));
+        placeNewPiece('e', 8, new King(board, Color.WHITE));
+        placeNewPiece('e', 1, new King(board, Color.WHITE));
     }
 }

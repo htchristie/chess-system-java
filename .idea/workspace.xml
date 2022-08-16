@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="96a0f37a-51b6-4a9d-9b34-deeac4ffc6cd" name="Changes" comment="improve board printing">
+    <list default="true" id="96a0f37a-51b6-4a9d-9b34-deeac4ffc6cd" name="Changes" comment="add methods readChessPosition and removePiece">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/application/UI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/application/UI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/board/Board.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/board/Board.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/application/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/application/Program.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chess/ChessException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chess/ChessException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chess/ChessMatch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chess/ChessMatch.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -146,7 +147,14 @@
       <option name="project" value="LOCAL" />
       <updated>1660676659805</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="add methods readChessPosition and removePiece">
+      <created>1660677577757</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1660677577757</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -172,6 +180,7 @@
     <MESSAGE value="add custom exception, and methods toPosition and fromPosition" />
     <MESSAGE value="add color to the pieces" />
     <MESSAGE value="improve board printing" />
-    <option name="LAST_COMMIT_MESSAGE" value="improve board printing" />
+    <MESSAGE value="add methods readChessPosition and removePiece" />
+    <option name="LAST_COMMIT_MESSAGE" value="add methods readChessPosition and removePiece" />
   </component>
 </project>

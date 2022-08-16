@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="96a0f37a-51b6-4a9d-9b34-deeac4ffc6cd" name="Changes" comment="add placePiece and initialSetup methods, as well as placing both the Kings on the board">
-      <change afterPath="$PROJECT_DIR$/src/board/BoardException.java" afterDir="false" />
+    <list default="true" id="96a0f37a-51b6-4a9d-9b34-deeac4ffc6cd" name="Changes" comment="add positionExists and isThereAPiece methods">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/board/Board.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/board/Board.java" afterDir="false" />
     </list>
@@ -104,7 +103,21 @@
       <option name="project" value="LOCAL" />
       <updated>1660673577676</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="add custom board exception">
+      <created>1660674191290</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1660674191290</updated>
+    </task>
+    <task id="LOCAL-00007" summary="add positionExists and isThereAPiece methods">
+      <created>1660674218077</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1660674218078</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -124,6 +137,8 @@
     <MESSAGE value="add ChessMatch, ChessPiece, and Color classes" />
     <MESSAGE value="add king and rook pieces" />
     <MESSAGE value="add placePiece and initialSetup methods, as well as placing both the Kings on the board" />
-    <option name="LAST_COMMIT_MESSAGE" value="add placePiece and initialSetup methods, as well as placing both the Kings on the board" />
+    <MESSAGE value="add custom board exception" />
+    <MESSAGE value="add positionExists and isThereAPiece methods" />
+    <option name="LAST_COMMIT_MESSAGE" value="add positionExists and isThereAPiece methods" />
   </component>
 </project>

@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="96a0f37a-51b6-4a9d-9b34-deeac4ffc6cd" name="Changes" comment="printing possible moves as colored tiles on board">
+    <list default="true" id="96a0f37a-51b6-4a9d-9b34-deeac4ffc6cd" name="Changes" comment="implementing possible moves for King piece">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chess/pieces/King.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chess/pieces/King.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/application/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/application/Program.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/application/UI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/application/UI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chess/ChessMatch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chess/ChessMatch.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -194,7 +196,14 @@
       <option name="project" value="LOCAL" />
       <updated>1660765325903</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="implementing possible moves for King piece">
+      <created>1660766066240</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1660766066240</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -227,6 +236,7 @@
     <MESSAGE value="add checks for possible moves" />
     <MESSAGE value="implementing possible moves for rook" />
     <MESSAGE value="printing possible moves as colored tiles on board" />
-    <option name="LAST_COMMIT_MESSAGE" value="printing possible moves as colored tiles on board" />
+    <MESSAGE value="implementing possible moves for King piece" />
+    <option name="LAST_COMMIT_MESSAGE" value="implementing possible moves for King piece" />
   </component>
 </project>

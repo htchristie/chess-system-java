@@ -13,6 +13,7 @@ public class Program {
         ChessMatch chessMatch = new ChessMatch();
 
         while (true) {
+            UI.clearScreen();
             UI.printBoard(chessMatch.getPieces());
             System.out.println();
             System.out.print("Source: ");

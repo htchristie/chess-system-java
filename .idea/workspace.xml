@@ -4,12 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="96a0f37a-51b6-4a9d-9b34-deeac4ffc6cd" name="Changes" comment="add checks for possible moves">
+    <list default="true" id="96a0f37a-51b6-4a9d-9b34-deeac4ffc6cd" name="Changes" comment="implementing possible moves for rook">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/board/Position.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/board/Position.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/application/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/application/Program.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/application/UI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/application/UI.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/chess/ChessMatch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chess/ChessMatch.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chess/ChessPiece.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chess/ChessPiece.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chess/pieces/Rook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chess/pieces/Rook.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -183,7 +182,14 @@
       <option name="project" value="LOCAL" />
       <updated>1660700798957</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="implementing possible moves for rook">
+      <created>1660702412303</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1660702412303</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -214,6 +220,7 @@
     <MESSAGE value="add clearScreen method" />
     <MESSAGE value="handling exceptions" />
     <MESSAGE value="add checks for possible moves" />
-    <option name="LAST_COMMIT_MESSAGE" value="add checks for possible moves" />
+    <MESSAGE value="implementing possible moves for rook" />
+    <option name="LAST_COMMIT_MESSAGE" value="implementing possible moves for rook" />
   </component>
 </project>
